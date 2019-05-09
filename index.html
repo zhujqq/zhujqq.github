@@ -82,7 +82,7 @@
 
         //创建fbx加载器
         var loader = new THREE.FBXLoader();
-        loader.load('js/xiaoxiongmao.fbx', function (fbx) {
+        loader.load('xiaoxiongmao.fbx', function (fbx) {
             fbx.scale.set(.1,.1,.1);
             fbx.traverse(function (item) {
                if(item instanceof THREE.Mesh){

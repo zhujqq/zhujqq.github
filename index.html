@@ -38,7 +38,7 @@
     function initCamera(){
         camera = new THREE.PerspectiveCamera(50,WIDTH/HEIGHT,1,10000);
         camera.position.set(0,300,350);
-        camera.lookAt(scene.position);
+        camera.lookAt(0,0,0);
         //  创建控制器
         controls = new THREE.OrbitControls( camera );
     }
